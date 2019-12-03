@@ -1,0 +1,56 @@
+
+
+body{
+  font-family: "hi melody"
+}
+    h1{
+    text-align: center;
+    border-bottom: 2px solid purple;
+    margin : 0;
+    padding:20px;
+    font-style: italic;
+    font-weight: 200;
+
+    }
+
+    ul{
+    border-right: 2px solid purple;
+    margin : 0px;
+    width : 103px;
+    padding:20px;
+
+    }
+
+    h2{
+    color: orange;
+    font-size: 30px;
+    }
+
+    a{
+    color:purple ;
+    text-decoration: none;
+    font-size: 30px
+    }
+
+
+    #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    }
+    #grid ul{
+    padding-left: 33px;
+    }
+    #grid #article{
+      padding-left: 25px;
+    }
+    @media (max-width :800px){
+    #grid{
+    display:block;
+    }
+    ul{
+    border-right:none;
+    }
+    h1{
+    border-bottom: none;
+    }
+  }
